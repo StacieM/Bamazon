@@ -16,4 +16,4 @@ If there are enough in stock Bamazon will adjust the quantities and continue:
 
 If there are not enough items in stock, an error message will be given to the User: 
 
-![Current Order Screen Shot](ttps://github.com/StacieM/Bamazon/blob/master/Images/bamazonCurrentOrder.png)
+![Current Order Screen Shot](https://github.com/StacieM/Bamazon/blob/master/Images/bamazonCurrentOrder.png)
