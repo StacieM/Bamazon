@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Online storefront/CLI App using MySQL, Inquirer, Javascript",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StacieM/Bamazon.git"
+  },
+  "author": "Stacie Meierhoefer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StacieM/Bamazon/issues"
+  },
+  "homepage": "https://github.com/StacieM/Bamazon#readme",
+  "dependencies": {
+    "console.table": "^0.8.0",
+    "inquirer": "^3.1.0",
+    "mysql": "^2.13.0"
+  }
+}
