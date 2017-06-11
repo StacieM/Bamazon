@@ -8,12 +8,12 @@ This CLI application takes an order from a customer and deplete the store's stoc
 
 Initializing node bamazonCustomer.js in the command line brings up the storefront. It asks the user what item they like to purchase and the quantity:
 
-![Start Shopping Screen Shot](https://github.com/StacieM/Bamazon/blob/master/Images/bamazonStartScreen.tiff "Bamazon Current Order") 
+![Start Shopping Screen Shot](https://github.com/StacieM/Bamazon/blob/master/Images/bamazonStartScreen.tiff") 
 
 If there are enough in stock Bamazon will adjust the quantities and continue:
 
-![Purchase Screen Shot](https://github.com/StacieM/Bamazon/blob/master/Images/bamazonPurchaseScreen.tiff "Logo Title Text 1")
+![Purchase Screen Shot](https://github.com/StacieM/Bamazon/blob/master/Images/bamazonPurchaseScreen.tiff")
 
 If there are not enough items in stock, an error message will be given to the User: 
 
-![Current Order Screen Shot](https://github.com/StacieM/Bamazon/blob/master/Images/bamazonCurrentOrder.tiff "Bamazon Current Order")
+![Current Order Screen Shot](ttps://github.com/StacieM/Bamazon/blob/master/Images/bamazonCurrentOrder.tiff")
