@@ -58,11 +58,11 @@ var shop = function () {
             console.log("Sorry, we do not have enough in stock to complete your order.  Please modify your order.");
             shop();
         } else {
-            console.log("Thank for your order of:\n" + answer.quantity + " x " + res[0].product_name);
-            console.log("Please take a look through our other items:\n");
+            console.log("Your current order:\n" + answer.quantity + " " + res[0].product_name);
+            console.log("Please feel free to browse our other items:\n");
             var qtyUpdate = res[0].stock_quantity - parseInt(answer.quantity);
             var total = res[0].price * answer.quantity;
-            console.log('qtyUpdate: ' + qtyUpdate);
+            // console.log('qtyUpdate: ' + qtyUpdate);
             connection.query("UPDATE products SET ? WHERE ?", [{
                 stock_quantity: qtyUpdate
             }, {
