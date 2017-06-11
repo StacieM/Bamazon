@@ -1,7 +1,7 @@
 # Bamazon
 An online storefront / command line app - using MySQL, Inquirer and Node.js.
 
-### SYNOPSIS
+### Synopsis
 An Amazon-like storefront using MySQL, the MySQL Package, and the Inquirer Package.
 
 This CLI application takes an order from a customer and deplete the store's stock accordingly.
